@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Conheça os animais e a biodiversidade brasileira. Fauna ameaçada, habitats, alimentação e nível de risco de extinção.">
+  <title>Animais — EcoVida</title>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ========== CABEÇALHO ========== -->
+  <header class="header" id="header">
+    <div class="container">
+      <a href="index.html" class="logo">
+        <div class="logo-icon">🌿</div>
+        <span>EcoVida</span>
+      </a>
+      <nav>
+        <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">
+          <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-list" id="navList">
+          <li><a href="index.html">Início</a></li>
+          <li><a href="animais.html" class="active">Animais</a></li>
+          <li><a href="preservacao.html">Preservação</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ========== HERO DA PÁGINA ========== -->
+    <section class="page-hero">
+      <div class="container">
+        <div class="hero-badge">🐾 Fauna Brasileira</div>
+        <h1>Biodiversidade em risco</h1>
+        <p>
+          O Brasil é o país com a maior biodiversidade do planeta. Conheça as espécies
+          que precisam da nossa proteção para sobreviver.
+        </p>
+      </div>
+    </section>
+
+    <!-- ========== ESTATÍSTICAS ========== -->
+    <section class="section">
+      <div class="container">
+        <div class="stats-row reveal stagger-children">
+          <div class="stat-item">
+            <div class="stat-number">1.173</div>
+            <div class="stat-label">Espécies ameaçadas</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">732</div>
+            <div class="stat-label">Mamíferos catalogados</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">1.919</div>
+            <div class="stat-label">Espécies de aves</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">13%</div>
+            <div class="stat-label">Da biodiversidade mundial</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== LISTA DE ANIMAIS ========== -->
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="overline">Espécies em destaque</span>
+          <h2>Animais da fauna brasileira</h2>
+          <p>
+            Cada espécie tem um papel fundamental no equilíbrio dos ecossistemas.
+            Conheça algumas das mais emblemáticas.
+          </p>
+        </div>
+
+        <div class="grid-3 stagger-children reveal">
+
+          <!-- Onça-pintada -->
+          <div class="card animal-card">
+            <div class="card-image-wrapper">
+              <img
+                src="https://images.unsplash.com/photo-1564349683136-77e08dba1ef7?w=600&q=80"
+                alt="Onça-pintada"
+                class="card-image"
+                loading="lazy"
+              >
+              <span class="animal-status vulneravel">Vulnerável</span>
+            </div>
+            <h3>Onça-Pintada</h3>
+            <p>O maior felino das Américas e símbolo da força da fauna brasileira.</p>
+            <ul class="animal-info-list">
+              <li><strong>Habitat:</strong> Amazônia, Pantanal, Cerrado</li>
+              <li><strong>Alimentação:</strong> Carnívora — capivaras, jacarés, peixes</li>
+              <li><strong>Risco:</strong> Vulnerável (IUCN)</li>
+            </ul>
+            <div class="animal-details">
+              <span class="card-tag">Felino</span>
+              <span class="card-tag">Predador</span>
+            </div>
+          </div>
+
+          <!-- Arara-azul -->
+          <div class="card animal-card">
+            <div class="card-image-wrapper">
+              <img
+                src="https://images.unsplash.com/photo-1552728089-57bdde30beb3?w=600&q=80"
+                alt="Arara-azul"
+                class="card-image"
+                loading="lazy"
+              >
+              <span class="animal-status perigo">Em perigo</span>
+            </div>
+            <h3>Arara-Azul</h3>
+            <p>A maior espécie de arara do mundo, com plumagem azul-cobalto deslumbrante.</p>
+            <ul class="animal-info-list">
+              <li><strong>Habitat:</strong> Pantanal, Cerrado, Amazônia Oriental</li>
+              <li><strong>Alimentação:</strong> Frutos de palmeiras, especialmente bocaiúva</li>
+              <li><strong>Risco:</strong> Em perigo de extinção</li>
+            </ul>
+            <div class="animal-details">
+              <span class="card-tag">Ave</span>
+              <span class="card-tag">Psitacídeo</span>
+            </div>
+          </div>
+
+          <!-- Tartaruga-marinha -->
+          <div class="card animal-card">
+            <div class="card-image-wrapper">
+              <img
+                src="https://images.unsplash.com/photo-1591025207163-942350e47db2?w=600&q=80"
+                alt="Tartaruga-marinha"
+                class="card-image"
+                loading="lazy"
+              >
+              <span class="animal-status critico">Crítico</span>
+            </div>
+            <h3>Tartaruga-de-Couro</h3>
+            <p>A maior tartaruga marinha do mundo, podendo atingir 2 metros de comprimento.</p>
+            <ul class="animal-info-list">
+              <li><strong>Habitat:</strong> Oceano Atlântico, litoral brasileiro</li>
+              <li><strong>Alimentação:</strong> Águas-vivas e outros invertebrados marinhos</li>
+              <li><strong>Risco:</strong> Criticamente ameaçada</li>
+            </ul>
+            <div class="animal-details">
+              <span class="card-tag">Réptil</span>
+              <span class="card-tag">Marinha</span>
+            </div>
+          </div>
+
+          <!-- Mico-leão-dourado -->
+          <div class="card animal-card">
+            <div class="card-image-wrapper">
+              <img
+                src="https://images.unsplash.com/photo-1540573133985-87b6da6d54a9?w=600&q=80"
+                alt="Mico-leão-dourado"
+                class="card-image"
+                loading="lazy"
+              >
+              <span class="animal-status perigo">Em perigo</span>
+            </div>
+            <h3>Mico-Leão-Dourado</h3>
+            <p>Primata endêmico da Mata Atlântica, símbolo da conservação brasileira.</p>
+            <ul class="animal-info-list">
+              <li><strong>Habitat:</strong> Mata Atlântica (Rio de Janeiro)</li>
+              <li><strong>Alimentação:</strong> Frutas, insetos, pequenos vertebrados</li>
+              <li><strong>Risco:</strong> Em perigo de extinção</li>
+            </ul>
+            <div class="animal-details">
+              <span class="card-tag">Primata</span>
+              <span class="card-tag">Endêmico</span>
+            </div>
+          </div>
+
+          <!-- Boto-cor-de-rosa -->
+          <div class="card animal-card">
+            <div class="card-image-wrapper">
+              <img
+                src="https://images.unsplash.com/photo-1570481662006-a3a1374699e8?w=600&q=80"
+                alt="Boto-cor-de-rosa"
+                class="card-image"
+                loading="lazy"
+              >
+              <span class="animal-status perigo">Em perigo</span>
+            </div>
+            <h3>Boto-Cor-de-Rosa</h3>
+            <p>Golfinho de água doce, figura lendária do folclore amazônico.</p>
+            <ul class="animal-info-list">
+              <li><strong>Habitat:</strong> Rios da Amazônia e Orinoco</li>
+              <li><strong>Alimentação:</strong> Peixes, caranguejos, tartarugas</li>
+              <li><strong>Risco:</strong> Em perigo de extinção</li>
+            </ul>
+            <div class="animal-details">
+              <span class="card-tag">Mamífero</span>
+              <span class="card-tag">Aquático</span>
+            </div>
+          </div>
+
+          <!-- Lobo-guará -->
+          <div class="card animal-card">
+            <div class="card-image-wrapper">
+              <img
+                src="https://images.unsplash.com/photo-1474511320723-9a56873571b7?w=600&q=80"
+                alt="Lobo-guará"
+                class="card-image"
+                loading="lazy"
+              >
+              <span class="animal-status vulneravel">Vulnerável</span>
+            </div>
+            <h3>Lobo-Guará</h3>
+            <p>O maior canídeo da América do Sul, com pernas longas e pelagem avermelhada.</p>
+            <ul class="animal-info-list">
+              <li><strong>Habitat:</strong> Cerrado, campos do sul do Brasil</li>
+              <li><strong>Alimentação:</strong> Onívoro — frutas (lobeira), roedores, aves</li>
+              <li><strong>Risco:</strong> Vulnerável (IUCN)</li>
+            </ul>
+            <div class="animal-details">
+              <span class="card-tag">Canídeo</span>
+              <span class="card-tag">Cerrado</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== CITAÇÃO ========== -->
+    <section class="section">
+      <div class="container">
+        <div class="quote-block reveal">
+          <blockquote>
+            Quando o último animal for caçado e o último rio envenenado, o homem perceberá que não pode comer dinheiro.
+          </blockquote>
+          <cite>— Provérbio Indígena Cree</cite>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== CTA ========== -->
+    <section class="section section-alt cta-section">
+      <div class="container reveal">
+        <h2>Quer ajudar a proteger essas espécies?</h2>
+        <p>Descubra como a preservação do habitat é a chave para garantir a sobrevivência da fauna brasileira.</p>
+        <a href="preservacao.html" class="btn btn-primary">Conheça as ações de preservação</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========== RODAPÉ ========== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">
+            <div class="logo-icon">🌿</div>
+            <span>EcoVida</span>
+          </a>
+          <p>Educação ambiental para um futuro sustentável. Conhecimento, pesquisa e ação em defesa do meio ambiente.</p>
+        </div>
+        <div>
+          <h4>Navegação</h4>
+          <div class="footer-links">
+            <a href="index.html">Início</a>
+            <a href="animais.html">Animais</a>
+            <a href="preservacao.html">Preservação</a>
+            <a href="sobre.html">Sobre</a>
+            <a href="contato.html">Contato</a>
+          </div>
+        </div>
+        <div>
+          <h4>Recursos</h4>
+          <div class="footer-links">
+            <a href="#">Artigos</a>
+            <a href="#">Pesquisas</a>
+            <a href="#">Downloads</a>
+          </div>
+        </div>
+        <div>
+          <h4>Contato</h4>
+          <div class="footer-links">
+            <a href="mailto:contato@ecovida.org">contato@ecovida.org</a>
+            <a href="tel:+5500000000000">(00) 00000-0000</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 EcoVida. Todos os direitos reservados.</span>
+        <span>Feito com 💚 pelo planeta</span>
+      </div>
+    </div>
+  </footer>
+
+  <button class="back-to-top" id="backToTop" aria-label="Voltar ao topo">↑</button>
+  <script src="js/script.js"></script>
+</body>
+</html>
